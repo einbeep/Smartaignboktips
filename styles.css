@@ -1,11 +1,21 @@
 body {
   background-color: #fef1ac;
 }
-.ram
-{
- background-color: #fef1ac; 
+.ram {
+    position: relative;
+    width: 1080px;
+    height: 1920px;
+    overflow: hidden;
+    padding-top: 150%;
 }
-iframe
-{
-  zoom: 150 %;
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    zoom: 3;
 }
