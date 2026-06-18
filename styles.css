@@ -1,7 +1,11 @@
 body {
-  background-color: blue;
+  background-color: #fef1ac;
 }
 .ram
 {
  background-color: #fef1ac; 
+}
+iframe
+{
+  zoom: 150%;
 }
