@@ -1,11 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
+<style>
+.ram {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 150%; /* 4:3 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+</style>
 </head>
 <body>
 <div class="ram">
-  <iframe padding:"10 em" height="1990 px" src="https://www.bibliotekenisollentuna.se/widget/web/arena/kopia-av-start/-/com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_QUmKEythTO0L" width="100%"></iframe>
+  <iframe class="responsive-iframe" src="https://www.bibliotekenisollentuna.se/widget/web/arena/kopia-av-start/-/com_liferay_asset_publisher_web_portlet_AssetPublisherPortlet_INSTANCE_QUmKEythTO0L"></iframe>
 </div>
 </body>
 </html>
