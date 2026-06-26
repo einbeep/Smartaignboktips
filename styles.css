@@ -1,6 +1,6 @@
 .ram {
 	position: relative;
-	padding-bottom: 16%; /* 16:9 */
+	padding-bottom: 160%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
